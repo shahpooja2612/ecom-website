@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+.divs {
+  padding-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="home.php">Home</a></li>
+  <li><a href="horror.php">Horror</a></li>
+  <li><a href="sci-fi.php">Sci-fi</a></li>
+  <li><a href="mythology.php">Mythology</a></li>
+  <li><a href="humor.php">Humour</a></li>
+  <li><a href="adventure.php">Adventure</a></li>
+  <li><a href="classic.php">Classic</a></li>
+  <li><a href="fiction.php">Fiction</a></li>
+  <li><a href="fantasy.php">Fantasy</a></li>
+  <li><a href="crime.php">Crime</a></li>
+ <form action="users.php" method="GET">
+  <div class="divs">
+<input id="search" name="search" type="text" placeholder="Type here" id="search">
+<input id="submit" type="submit" value="Search" id="subbut">
+  </div>
+</form>
+
+</ul>
+
+</body>
+</html>
